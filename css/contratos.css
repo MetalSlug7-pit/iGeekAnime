@@ -1,0 +1,39 @@
+.termos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #F4F4F4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .termos h1 {
+    font-size: 36px;
+    margin: 0 0 50px 0;
+    text-align: center;
+  }
+  
+  .termos h4 {
+    font-size: 20px;
+    margin: 40px 0 20px 0;
+  }
+  
+  .termos p {
+    margin: 20px 0;
+    text-align: justify;
+  }
+  
+  .termos a {
+    color: #0070C0;
+  }
+  
+  .termos a:hover {
+    text-decoration: underline;
+  }
+  
+
+.icone:hover{
+    background-color: #17161670;
+}

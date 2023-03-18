@@ -1,0 +1,99 @@
+.tituloAdd{
+    position:absolute;
+    color: white;
+    font-size: 2em;
+    margin-top: -120px;
+    margin-left: -110px;
+}
+.tituloAlt{
+    position:absolute;
+    color: white;
+    font-size: 2em;
+    margin-top: -120px;
+    margin-left: -90px;
+}
+.tituloExc{
+    position:absolute;
+    color: white;
+    font-size: 2em;
+    margin-top: -120px;
+    margin-left: -90px;
+}
+
+.container{
+    display:flex;
+    height:300px;
+    margin-top: 43px;
+}
+
+.adicionar{
+    border:3px solid;
+    border-color: white;
+    text-align: center;
+    width: 450px;
+    padding-top: 242.25px;
+    display:inline-block;
+    transition: 1.3s;
+    border-radius: 2.5em;
+}
+
+.alterar{
+    border:3px solid;
+    border-color: white;
+    text-align: center;
+    width: 450px;
+    margin-left: 8vw;
+    padding-top: 242.25px;
+    display:inline-block;
+    transition: 1.3s;
+    border-radius: 2.5em;
+    
+    
+}
+.excluir{
+    border:3px solid;
+    border-color: white;
+    text-align: center;
+    width: 450px;
+    margin-left: 8vw;
+    padding-top: 242.25px;
+    display:inline-block;
+    transition: 1.3s;
+    border-radius: 2.5em;
+}
+
+.adicionar:hover{
+    background-color: #98FB98;
+    border-color: #98FB98;
+}
+
+.alterar:hover{
+    background-color: #F0E68C;
+    border-color: #F0E68C;
+}
+
+.excluir:hover{
+    background-color: #FA8072;
+    border-color: #FA8072;
+}
+
+.popBD{
+    color:white;
+    border:2px solid;
+    border-color: white;
+    width: 100px;
+    height:35px;
+    transition: 1.3s;
+    margin-left: 30px;
+}
+
+.Bd{
+    font-size:16px;
+    text-align: center;
+}
+
+.popBD:hover{
+    background-color: white;
+    border-color: white;
+    color:black;
+}

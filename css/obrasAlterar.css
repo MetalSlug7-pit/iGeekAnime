@@ -1,0 +1,16 @@
+.barraPesquisar{
+  width: 20vw;
+  margin-top: 3vh;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: 0;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  background: none;
+}
+
+.botoes{
+  margin-left: 120px;
+}

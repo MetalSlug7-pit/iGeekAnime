@@ -1,0 +1,72 @@
+.navbarCima{
+	transition: .5s ease;
+	opacity: 0;
+}
+.navbarCima:hover{
+	transition: .5s ease;
+	opacity: 1;
+}
+
+.icone:hover{
+    background-color: #17161670;
+}
+
+
+
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos do header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos da seção "Sobre Nós" */
+.sobre-nos {
+    padding: 50px;
+    text-align: center;
+}
+
+.sobre-nos h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.sobre-nos p {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.criadores {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.criador {
+    margin: 0 20px;
+}
+
+.criador img {
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.criador h3 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}

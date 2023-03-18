@@ -1,0 +1,218 @@
+.icone:hover{
+  background-color: #17161670;
+}
+.navbarCima{
+	transition: .5s ease;
+	opacity: 0;
+}
+.navbarCima:hover{
+	transition: .5s ease;
+	opacity: 1;
+}
+
+.imgPerfil{
+  width: 100%;
+  height: 658px;
+}
+
+
+
+
+:root {
+	--primary-color: #1B1B1F;
+	--secondary-color: #C4C4C4;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.profile-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.profile-header img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+	box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.profile-header h1 {
+  color: white;
+	font-size: 36px;
+	margin-top: 20px;
+}
+
+.join-date {
+	margin-top: 10px;
+	font-size: 18px;
+	color: var(--secondary-color);
+}
+
+.profile-nav {
+	margin-top: 30px;
+}
+
+.profile-nav ul {
+	display: flex;
+	list-style: none;
+}
+
+.linksList{
+  margin-left: -30px;
+}
+
+.profile-nav li:not(:last-child) {
+	margin-right: 20px;
+}
+
+.profile-nav a {
+	padding: 10px 20px;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.profile-nav a:hover {
+	background-color: #111;
+	color: #fff;
+}
+
+.fav-works h2 {
+  color: white;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.obras {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.obra {
+  width: 205px;
+  height: 300px;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.obra:hover {
+  box-shadow: 0px 3px 20px rgb(255, 255, 255);
+  transform: translateY(-5px);
+}
+
+.obra img {
+  width: 100%;
+  height: 90%;
+  display: block;
+}
+
+.obra h3 {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
+
+
+
+
+
+.btBuscaObra{
+  margin-left: -10px;
+  background-color: #98FB98;
+  transition: 500ms linear;
+  animation: ease-in;
+}
+.btBuscaObra:hover{
+  background-color: #2E8B57;
+}
+
+
+
+
+
+
+.alterarDados{
+  border:none;
+  width:470px;
+}
+.altTitulo{
+  color: white;
+  font-size: 20px;
+}
+.inputDados{
+  background-color: transparent;
+  border-top: 0 none;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btnUpload{
+  background-color: transparent;
+}
+.btnUpload:hover{
+  background-color: #ffc107;
+}
+
+.btnAlt {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.btnAlt:hover{
+  background-color: #218838;
+}
+
+.btnExc {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.btnExc:hover{
+  background-color: #c82333;
+}

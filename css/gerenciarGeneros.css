@@ -1,0 +1,53 @@
+.tituloAdd{
+    position:absolute;
+    color: white;
+    font-size: 2em;
+    margin-top: -120px;
+    margin-left: -130px;
+}
+.tituloExc{
+    position:absolute;
+    color: white;
+    font-size: 2em;
+    margin-top: -120px;
+    margin-left: -105px;
+}
+
+.container{
+    display:flex;
+    height:300px;
+    margin-top: 43px;
+}
+
+.adicionar{
+    border:3px solid;
+    border-color: white;
+    text-align: center;
+    width: 450px;
+    padding-top: 242.25px;
+    display:inline-block;
+    transition: 1.3s;
+    border-radius: 2.5em;
+}
+
+.excluir{
+    border:3px solid;
+    border-color: white;
+    text-align: center;
+    width: 450px;
+    margin-left: 19vw;
+    padding-top: 242.25px;
+    display:inline-block;
+    transition: 1.3s;
+    border-radius: 2.5em;
+}
+
+.adicionar:hover{
+    background-color: #98FB98;
+    border-color: #98FB98;
+}
+
+.excluir:hover{
+    background-color: #FA8072;
+    border-color: #FA8072;
+}

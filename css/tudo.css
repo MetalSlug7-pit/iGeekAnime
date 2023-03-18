@@ -1,0 +1,59 @@
+.icone:hover{
+    background-color: #17161670;
+}
+
+
+.recomendacao {
+	margin-bottom: 20px;
+}
+
+.obras {
+	display: flex;
+	margin-top: 30px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.obra {
+	width: 200px;
+	height: 300px;
+	margin: 0 20px 20px;
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.5);
+	transition: all 0.3s ease-in-out;
+	background-color: white;
+}
+
+.obra:hover {
+	box-shadow: 0px 3px 20px rgb(255, 255, 255);
+	transform: translateY(-5px);
+}
+
+.obra img {
+	width: 100%;
+	height: 90%;
+	display: block;
+}
+
+.obra h3 {
+	margin: 5px 0;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
