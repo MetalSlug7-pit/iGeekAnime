@@ -73,8 +73,8 @@ $tabObraAutor = "CREATE TABLE IF NOT EXISTS Autores_Obra_Autor(
     CONSTRAINT obraID_FK3 FOREIGN KEY (idObra) REFERENCES Obras(obras_id)	
 )";
 
-if($railway->query($tabUsu) == TRUE && $railway->query($tabAdm) == TRUE && $railway->query($tabObra) == TRUE && $railway->query($tabAutor) == TRUE &&
-$railway->query($tabGen) == TRUE && $railway->query($tabFavoritar) == TRUE && $railway->query($tabObraGenero) == TRUE && $railway->query($tabObraAutor) == TRUE){
+if(railway connect->query($tabUsu) == TRUE && railway connect->query($tabAdm) == TRUE && railway connect->query($tabObra) == TRUE && railway connect->query($tabAutor) == TRUE &&
+railway connect->query($tabGen) == TRUE && railway connect->query($tabFavoritar) == TRUE && railway connect->query($tabObraGenero) == TRUE && railway connect->query($tabObraAutor) == TRUE){
 }
 
 ?>
