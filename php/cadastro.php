@@ -23,7 +23,7 @@ if($result->rowCount() > 0) {
 	exit;
 }
 
-if($usuario == 'admin' || $senha=='ADMINiGeekAnime14012002'){
+if($usuario == 'admin' || $senha=='iGeekAnime'){
 	$_SESSION['usuario_existe'] = true;
 	header('Location: ../index.php');
 	exit;
