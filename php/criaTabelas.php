@@ -1,5 +1,4 @@
 <?php
-include('ConectBanco.php');
 
 $tabUsu = "CREATE TABLE IF NOT EXISTS Usuario(
     usuario_id int NOT NULL AUTO_INCREMENT,
