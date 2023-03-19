@@ -72,9 +72,4 @@ $tabObraAutor = "CREATE TABLE IF NOT EXISTS Autores_Obra_Autor(
     CONSTRAINT autorID_FK FOREIGN KEY (idAutor) REFERENCES Autor(autor_id),
     CONSTRAINT obraID_FK3 FOREIGN KEY (idObra) REFERENCES Obras(obras_id)	
 )";
-
-if($conn->query($tabUsu) == TRUE && $conn->query($tabAdm) == TRUE && $conn->query($tabObra) == TRUE && $conn->query($tabAutor) == TRUE &&
-$conn->query($tabGen) == TRUE && $conn->query($tabFavoritar) == TRUE && $conn->query($tabObraGenero) == TRUE && $conn->query($tabObraAutor) == TRUE){
-}
-
 ?>
