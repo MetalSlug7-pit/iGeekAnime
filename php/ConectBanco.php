@@ -4,7 +4,7 @@
 	$pass = "Pedro@1569733";
 	$dbname = "iGeekAnime";
 	try{
-		mysql -hcontainers-us-west-124.railway.app -uroot -pNgvY7wbKOzojXr4YLlcX --port 6833 --protocol=TCP railway;
+		$conn = new PDO("mysql:host=$servername; port=3306; dbname=$dbname", $user, $pass);
 	}catch(PDOException $e){
 		echo "Connection failed: " . $e->getMessage();
 	}
